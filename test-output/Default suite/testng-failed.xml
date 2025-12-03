@@ -6,8 +6,8 @@
       <class name="com.Delivery.testCases.TC_LoginPageDDT_02">
         <methods>
           <include name="setup"/>
-          <include name="LoginDDT"/>
           <include name="teardown"/>
+          <include name="LoginDDT"/>
         </methods>
       </class> <!-- com.Delivery.testCases.TC_LoginPageDDT_02 -->
     </classes>

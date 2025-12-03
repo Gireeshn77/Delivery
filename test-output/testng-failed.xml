@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.Delivery.testCases.TC_LoginPage_01">
+      <class name="com.Delivery.testCases.TC_LoginPageDDT_02">
         <methods>
-          <include name="Test2"/>
           <include name="setup"/>
           <include name="teardown"/>
+          <include name="LoginDDT"/>
         </methods>
-      </class> <!-- com.Delivery.testCases.TC_LoginPage_01 -->
+      </class> <!-- com.Delivery.testCases.TC_LoginPageDDT_02 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
