@@ -14,11 +14,11 @@ public class LoginPage {
 	}
 
 	@FindBy(name = "email")
-	WebElement username;
+	private WebElement username;
 	@FindBy(name = "passwd")
-	WebElement password;
+	private WebElement password;
 	@FindBy(name = "SubmitLogin")
-	WebElement signinbtn;
+	private WebElement signinbtn;
 
 	public void setusername(String uname) {
 		username.sendKeys(uname);

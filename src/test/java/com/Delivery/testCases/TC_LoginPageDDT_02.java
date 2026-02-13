@@ -25,6 +25,7 @@ public class TC_LoginPageDDT_02 extends BaseClass {
 		Thread.sleep(5000);
 	}
 
+	// Excel Integration Advanced Level appraoch
 	@DataProvider(name = "Logindata")
 	public String[][] getData() throws IOException {
 		String path = "C:\\Users\\ngire\\git\\repository\\Delivery\\src\\test\\java\\com\\Delivery\\testData\\Testdata.xls";
@@ -79,5 +80,15 @@ public class TC_LoginPageDDT_02 extends BaseClass {
 			{ "user3@example.com", "Admin@789" } 
 			};
 	}
+	
+	@DataProvider(name = "usernames")
+	public String[] getData3() {
+	    return new String[] {
+	        "user1",
+	        "user2",
+	        "user3"
+	    };
+	}
+
 
 }

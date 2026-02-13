@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 
 import com.Delivery.testCases.BaseClass;
 
-public class WebTable_Handle extends BaseClass {
+public class WebTable_Static extends BaseClass {
 
 	public void webtable() {
 
@@ -29,11 +29,23 @@ public class WebTable_Handle extends BaseClass {
 		{
 			for (int c = 1; c <= cols; c++) // 1 2 3 4 5 6..
 			{
-				String data = driver.findElement(By.xpath("//table[@class='data-list']//tr[" + r + "]/td[" + c + "]"))
-						.getText();
+				String data = driver.findElement(By.xpath("//table[@class='data-list']//tr[" + r + "]/td[" + c + "]")).getText();
 				System.out.print(data + "     ");
 			}
 			System.out.println();
+		}
+
+		// Retrive data depends on the condition
+		// 5) Print Release Date, VersionNo of Java Language of selenium
+
+		for (int r = 1; r <= rows; r++) {
+			String language = driver.findElement(By.xpath("//table[@class='data-list']/tbody/tr[" + r + "]/td[1]")).getText();
+
+			if (language.equals("Java")) {
+				String versionno = driver.findElement(By.xpath("//table[@class='data-list']/tbody/tr[" + r + "]/td[2]")).getText();
+				String releasedate = driver.findElement(By.xpath("//table[@class='data-list']/tbody/tr[" + r + "]/td[3]")).getText();
+				System.out.println(language + "   " + versionno + "   " + releasedate);
+			}
 		}
 
 	}

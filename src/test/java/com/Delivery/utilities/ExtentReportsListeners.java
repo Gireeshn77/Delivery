@@ -50,7 +50,6 @@ public class ExtentReportsListeners implements ITestListener {
 		extent.setSystemInfo("Tester Name", "Pavan");
 		extent.setSystemInfo("Os", "Windows10");
 		extent.setSystemInfo("Browser name", "Chrome");
-
 	}
 
 	public void onTestSuccess(ITestResult result) {

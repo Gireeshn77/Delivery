@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -43,7 +42,8 @@ public class BaseClass {
 	{
 		if (br.equals("chrome")) {
 			driver = new ChromeDriver();
-		} else if (br.equals("edge")) {
+		} 
+		else if (br.equals("edge")) {
 			driver = new EdgeDriver();
 		}
 		driver.get(baseUrl);
@@ -64,7 +64,7 @@ public class BaseClass {
 		File dst = new File("C:\\Users\\ngire\\eclipse-workspace\\Delivery\\Screenshots" + Repname);
 		FileUtils.copyFile(src, dst);
 
-		System.out.println("Screenshot taken");
+		System.out.println("Screenshot has taken");
 	}
 
 	// --------Explanation for Optional added--------
