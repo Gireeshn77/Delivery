@@ -71,5 +71,7 @@ public class BaseClass {
 	// @Optional is added so the test can run independently without needing values from the TestNG XML file.
 	// Without @Optional, running a single test method directly (without testng.xml), would throw an error.
 	// This allows flexibility to run tests either individually or through the testng.xml configuration.
+	
+	// Test line for git
 
 }
