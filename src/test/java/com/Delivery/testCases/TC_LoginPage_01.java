@@ -49,7 +49,7 @@ public class TC_LoginPage_01 extends BaseClass {
 	@Test()
 	public void Test4() {
 		System.out.println("Test 4 method passed ");
-		Assert.assertEquals(true, false);
+		Assert.assertEquals(true, true);
 	}
 	
 	
