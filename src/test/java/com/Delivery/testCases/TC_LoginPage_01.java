@@ -52,5 +52,11 @@ public class TC_LoginPage_01 extends BaseClass {
 		Assert.assertEquals(true, true);
 	}
 	
+	@Test()
+	public void Test5() {
+		System.out.println("Test 5 method passed ");
+		Assert.assertEquals(true, true);
+	}
+	
 	
 }
