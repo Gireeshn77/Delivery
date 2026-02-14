@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-14T00:20:50 IST" name="Default suite" finished-at="2026-02-14T00:21:08 IST" duration-ms="18239">
+  <suite started-at="2026-02-15T00:38:50 IST" name="Suite" finished-at="2026-02-15T00:39:05 IST" duration-ms="14897">
     <groups>
     </groups>
-    <test started-at="2026-02-14T00:20:50 IST" name="Default test" finished-at="2026-02-14T00:21:08 IST" duration-ms="18239">
+    <test started-at="2026-02-15T00:38:50 IST" name="Test" finished-at="2026-02-15T00:39:05 IST" duration-ms="14897">
       <class name="com.Delivery.testCases.TC_LoginPage_01">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Delivery.testCases.TC_LoginPage_01@765d7657]" started-at="2026-02-14T00:20:50 IST" name="setup" finished-at="2026-02-14T00:21:02 IST" duration-ms="12093" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Delivery.testCases.TC_LoginPage_01@74235045]" started-at="2026-02-15T00:38:51 IST" name="setup" finished-at="2026-02-15T00:38:59 IST" duration-ms="8221" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginTest()[pri:0, instance:com.Delivery.testCases.TC_LoginPage_01@765d7657]" started-at="2026-02-14T00:21:02 IST" name="LoginTest" finished-at="2026-02-14T00:21:08 IST" duration-ms="5723" status="PASS">
+        <test-method signature="LoginTest()[pri:0, instance:com.Delivery.testCases.TC_LoginPage_01@74235045]" started-at="2026-02-15T00:38:59 IST" name="LoginTest" finished-at="2026-02-15T00:39:05 IST" duration-ms="5645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Delivery.testCases.TC_LoginPage_01@765d7657]" started-at="2026-02-14T00:21:08 IST" name="teardown" finished-at="2026-02-14T00:21:08 IST" duration-ms="351" status="PASS">
+        <test-method signature="Test2()[pri:0, instance:com.Delivery.testCases.TC_LoginPage_01@74235045]" started-at="2026-02-15T00:39:05 IST" name="Test2" finished-at="2026-02-15T00:39:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test3()[pri:0, instance:com.Delivery.testCases.TC_LoginPage_01@74235045]" started-at="2026-02-15T00:39:05 IST" name="Test3" finished-at="2026-02-15T00:39:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method signature="Test4()[pri:0, instance:com.Delivery.testCases.TC_LoginPage_01@74235045]" started-at="2026-02-15T00:39:05 IST" name="Test4" finished-at="2026-02-15T00:39:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method signature="Test5()[pri:0, instance:com.Delivery.testCases.TC_LoginPage_01@74235045]" started-at="2026-02-15T00:39:05 IST" name="Test5" finished-at="2026-02-15T00:39:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Delivery.testCases.TC_LoginPage_01@74235045]" started-at="2026-02-15T00:39:05 IST" name="teardown" finished-at="2026-02-15T00:39:05 IST" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.Delivery.testCases.TC_LoginPage_01 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

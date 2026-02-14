@@ -37,7 +37,7 @@ public class ExtentReportsListeners implements ITestListener {
 		String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 		String Repname = "Test-Report-" + timestamp + ".html";
 
-		sparkreporter = new ExtentSparkReporter("C:\\Users\\ngire\\eclipse-workspace\\Delivery\\Reports\\" + Repname);
+		sparkreporter = new ExtentSparkReporter("C:\\Selenium projects\\Delivery\\Reports\\" + Repname);
 		sparkreporter.config().setDocumentTitle("Automation Report"); // Title of report
 		sparkreporter.config().setReportName("Functional Testing"); // name of the report
 		// sparkreporter.config(). setTheme (Theme.DARK) ;
