@@ -3,8 +3,7 @@
 <suite name="Suite">  <!-- parallel="classes" thread-count="2" -->
 	<listeners> 
 	  <listener class-name = "com.Delivery.utilities.ExtentReportsListeners"/>
-     </listeners> 
-	  
+    </listeners> 
   <test name="Test">
   	<parameter name ="browser" value="chrome"/>
     <classes>

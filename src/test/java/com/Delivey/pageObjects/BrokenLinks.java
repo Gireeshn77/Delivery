@@ -13,7 +13,7 @@ import org.openqa.selenium.WebElement;
 public class BrokenLinks {
 	public static void main(String[] args) throws MalformedURLException {
 
-		WebDriver driver = null ;
+		WebDriver driver = null;
 
 		driver.get("http://www.deadlinkcity.com/");
 

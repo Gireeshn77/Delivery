@@ -32,7 +32,7 @@ public class RetriveAllLinks {
 			System.out.println(link.getText());
 
 			// In selenium ver 4 we use getDomeAttribute , here href is the attribure and retrive its value i.e link
-			System.out.println(link.getAttribute("href"));
+		//	System.out.println(link.getAttribute("href"));  // deprecated
 			System.out.println(link.getDomAttribute("href"));
 
 		}
